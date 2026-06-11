@@ -1,0 +1,9 @@
+.claude/*.local.md
+*.local.json
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+.idea/
+.vscode/
