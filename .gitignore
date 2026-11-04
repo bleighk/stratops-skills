@@ -1,4 +1,5 @@
 .claude/*.local.md
+.pi/
 *.local.json
 .DS_Store
 Thumbs.db

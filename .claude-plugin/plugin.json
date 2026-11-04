@@ -1,8 +1,8 @@
 {
   "name": "stratops",
   "displayName": "StratOps Skills",
-  "version": "1.1.0",
-  "description": "A collection of strategy skills covering a structured problem-solving toolkit commonly used by management consulting firms (e.g., McKinsey, BCG, Bain). Plugin suite covers: domain research, structured brainstorming, MECE hypothesis trees, and Pyramid Principle executive communications.",
+  "version": "1.2.0",
+  "description": "A collection of strategy skills covering a structured problem-solving toolkit commonly used by management consulting firms (e.g., McKinsey, BCG, Bain). Plugin suite covers: domain research, structured brainstorming, MECE hypothesis trees, Pyramid Principle executive communications, and consulting slide quality.",
   "author": {
     "name": "Strategy & Ops Skills",
     "email": "bradleyknight2@gmail.com"

@@ -1,0 +1,53 @@
+{
+  "consensus": [
+    "All models used white background (#ffffff) and 1920×1080 canvas—standard for consulting decks",
+    "All placed title at top-left (x=120, y=120±0)—standard consulting anchor point",
+    "All used quarterly timeline (Q1–Q4) as temporal axis—appropriate strategic planning granularity",
+    "All rendered Gantt bars as horizontal rectangles with consistent height (40px)—visual clarity",
+    "All showed 5 workstreams/phases in vertical swim lanes—digestible executive scope",
+    "All included source citation at bottom—consulting attribution standard",
+    "All employed restrained color palette (grays + single accent color)—professional and focus-directing",
+    "All left-aligned workstream labels at x=120–140—scanability and hierarchy",
+    "All kept element count under 40—avoided visual clutter (Claude 23, Gemini 29, GPT-5 35)"
+  ],
+  "contradictions": [
+    "Grid structure: Claude and Gemini used vertical quarter dividers only; GPT-5 Mini added full horizontal grid lines creating a table aesthetic—tradeoff between clarity (GPT-5) and minimalism (Claude/Gemini)",
+    "Title specificity: Claude ('Enterprise Platform Build: Critical path on track') and Gemini ('ERP Modernization: Systems Integration Critical Path') communicated clear message; GPT-5 Mini ('Strategic Roadmap—FY Gantt') was generic and non-actionable",
+    "Critical path emphasis: Claude and Gemini used blue (#1971c2) for critical item; GPT-5 Mini used green (#2d6a4f) labeled 'Priority'—different semantic framing (risk vs importance)",
+    "Quarter header placement: Claude/Gemini positioned Q labels at y≈240–252 (closer to data); GPT-5 Mini at y=160 (larger gap)—affects visual grouping",
+    "Typography hierarchy: Claude used largest title (60px) then 32px headers; GPT-5 Mini and Gemini used 56px/28px—Claude's contrast stronger",
+    "Bar color semantics: Claude/Gemini kept completed work in neutral gray; GPT-5 Mini varied grays (#6c757d vs #adb5bd) suggesting two states without explicit legend",
+    "Annotation method: Claude used inline ⚠ emoji; Gemini used separate callout text box; GPT-5 Mini used bottom legend—different executive scanning patterns"
+  ],
+  "partial_coverage": [
+    "Only Claude included warning indicator (⚠) directly on risky workstream label—immediate risk signaling",
+    "Only GPT-5 Mini provided explicit legend/key explaining color coding—self-documenting for stakeholders unfamiliar with context",
+    "Only Gemini added background rectangles for quarter headers (300×50px boxes)—strengthened temporal axis as visual anchor",
+    "Only GPT-5 Mini included text labels ON the Gantt bars themselves ('Design & Setup', 'Platform Development')—improved scannability without cross-referencing",
+    "Only Gemini included explicit milestone callout ('Q3 Go/No-Go Gate' at decision point)—surfaced critical decision moment",
+    "Only Claude positioned 'Go/No-Go' label at x=1510, y=547 (mid-timeline)—suggests decision timing, but lacks visual connector"
+  ],
+  "unique_insights": [
+    "Claude: Achieved highest signal-to-noise ratio (23 elements) while maintaining clarity—demonstrates ruthless simplification principle",
+    "GPT-5 Mini: Full grid structure + on-bar labels + legend = most self-contained for distributed review (email/print scenario)—optimized for asynchronous consumption",
+    "Gemini: Quarter header backgrounds create strongest temporal scaffolding—visual hierarchy guides eye left-to-right through phases",
+    "GPT-5 Mini: Horizontal row separators (y=320, 400, 480, 560) improve swim-lane differentiation when projecting on low-contrast screens",
+    "Claude: Single blue bar (#1971c2) creates immediate focal point on critical path—efficient executive attention direction",
+    "Gemini: Consistent 300px quarter widths (600/900/1200/1500) create metronomic rhythm—aids estimation of relative durations"
+  ],
+  "blind_spots": [
+    "NO MODEL showed task dependencies or critical-path arrows—essential for understanding sequencing and bottleneck analysis",
+    "NO MODEL included progress indicators (actual vs planned position, % complete shading, or baseline comparison)—unable to answer 'are we on track?'",
+    "NO MODEL used diamond shapes or vertical markers for milestones—relied on text annotations instead of universal Gantt symbols",
+    "NO MODEL included 'today' or 'now' vertical line—audience cannot orient to current status without mental calculation",
+    "NO MODEL showed resource allocation, owners, or accountability—missing 'who' dimension critical for governance",
+    "NO MODEL provided quantitative metrics (budget, FTE, deliverable count)—purely temporal view lacks ROI context",
+    "NO MODEL placed legend in top-right corner—consulting standard is top-right for immediate context, not bottom or absent",
+    "NO MODEL included synthesis insight box or 'so what' callout—chart requires executive to infer implications rather than stating them",
+    "NO MODEL showed date precision beyond quarters—3-month granularity too coarse for near-term execution tracking (next 30-60 days unclear)",
+    "NO MODEL used RAG (Red/Amber/Green) status indicators on workstreams—binary 'warning emoji' (Claude) insufficient for nuanced risk portfolio",
+    "NO MODEL distinguished workstream labels from bar labels typographically—could use bolder/larger treatment for swimlane headers vs activity names",
+    "NO MODEL included phase gates or governance checkpoints visually—'Go/No-Go' mentioned but not rendered as decision diamond or stage-gate marker",
+    "ALL MODELS positioned source at bottom—consulting best practice is top-right in smaller font (12–14pt) to preserve content real estate"
+  ]
+}
