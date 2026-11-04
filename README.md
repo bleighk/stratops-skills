@@ -1,6 +1,6 @@
 # Strategy & Ops Skills
 
-A collection of strategy skills covering a structured problem-solving toolkit commonly used by management consulting firms (e.g., McKinsey, BCG, Bain). Plugin suite covers: domain research, structured brainstorming, MECE hypothesis trees, and Pyramid Principle executive communications.
+A collection of strategy skills covering a structured problem-solving toolkit commonly used by management consulting firms (e.g., McKinsey, BCG, Bain). Plugin suite covers: domain research, structured brainstorming, MECE hypothesis trees, Pyramid Principle executive communications, and consulting slide quality.
 
 ## Skills
 
@@ -32,9 +32,18 @@ Turns your ideas or analysis into a clear, executive-ready narrative using the P
 
 **Invoke:** `/storyline` or "help me write a briefing on [topic]"
 
+### /consulting-slide-quality
+
+The skill is a universal visual quality guardrail for slides. It checks slide taxonomy, density, hierarchy, typography, color, layout, and data visualization. It applies to open-slide, Excalidraw, PowerPoint, and Figma.
+
+**Invoke:** `/consulting-slide-quality`, "slide review", "quality check", or "wireframe this slide"
+
+The skill includes a wireframe generator. This script writes Excalidraw files from a JSON description.
+
 ## Limitations
 
 - `research` requires web search tools. Without them the skill will abort at startup.
 - `hypothesis` and `storyline` widget rendering requires the `visualize` MCP server. Without it, both skills still run but will not produce the interactive output.
 - `brainstorm` is optimised for long ideation sessions.
+- `consulting-slide-quality` needs Node.js for the wireframe generator script. Review and authoring tasks work without Node.js.
 

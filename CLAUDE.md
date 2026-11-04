@@ -2,7 +2,7 @@
 
 ## What this repo is
 
-A Claude Code plugin containing four strategy skills. Each skill is defined in `skills/<name>/SKILL.md`.
+A Claude Code plugin containing five strategy skills. Each skill is defined in `skills/<name>/SKILL.md`.
 
 ## Plugin structure
 
@@ -15,11 +15,13 @@ skills/
   research/              — domain / market / competitive research
   hypothesis/            — MECE hypothesis tree builder
   storyline/             — Pyramid Principle executive communications
+  consulting-slide-quality/  — universal slide quality guardrail
 ```
 
 ## Key dependencies
 
 - **visualize MCP server** — required at runtime by `hypothesis` and `storyline` for widget rendering. Skills degrade gracefully without it but do not render interactive output.
+- **Node.js** — the `consulting-slide-quality` wireframe generator (`scripts/generate-wireframe.js`) needs Node.js. Review and authoring tasks work without it.
 
 ## Skill authoring conventions
 
